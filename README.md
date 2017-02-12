@@ -1,16 +1,16 @@
-## Image classify with CurieNeurons Pattern Matching Engine
+## Image Classify With CurieNeurons Pattern Matching Engine
 Using General Vision Lib / Arduino 101 with Intel Curie
 with KNN classify
 
 Training images:
 
-![Image of cucumber](https://github.com/Fyrewell/CurieNeuronsImage/cucumber.png) 
-![Image of banana](https://github.com/Fyrewell/CurieNeuronsImage/banana.png) 
-![Image of apple](https://github.com/Fyrewell/CurieNeuronsImage/apple.png) 
-![Image of carrot](https://github.com/Fyrewell/CurieNeuronsImage/carrot.png) 
+![Image of cucumber](https://github.com/Fyrewell/CurieNeuronsImage/blob/master/cucumber.png) 
+![Image of banana](https://github.com/Fyrewell/CurieNeuronsImage/blob/master/banana.png) 
+![Image of apple](https://github.com/Fyrewell/CurieNeuronsImage/blob/master/apple.png) 
+![Image of carrot](https://github.com/Fyrewell/CurieNeuronsImage/blob/master/carrot.png) 
 
 The image test is:
-![Image of carrot_test](https://github.com/Fyrewell/CurieNeuronsImage/carrot_test.png)
+![Image of carrot_test](https://github.com/Fyrewell/CurieNeuronsImage/blob/master/carrot_test.png)
 
 
 rgb_to_grayscale.py requires cv lib, used to convert RGB888 to grayscale and generate histograms 
