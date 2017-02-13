@@ -1,15 +1,14 @@
 ## Image Classify With CurieNeurons Pattern Matching Engine
-Using General Vision Lib / Arduino 101 with Intel Curie
-with KNN classify
+Using General Vision Lib / Arduino 101 Intel Curie KNN classify
 
-Training images:
+Training images are fruits:
 
 ![Image of cucumber](https://github.com/Fyrewell/CurieNeuronsImage/blob/master/cucumber.png) 
 ![Image of banana](https://github.com/Fyrewell/CurieNeuronsImage/blob/master/banana.png) 
 ![Image of apple](https://github.com/Fyrewell/CurieNeuronsImage/blob/master/apple.png) 
 ![Image of carrot](https://github.com/Fyrewell/CurieNeuronsImage/blob/master/carrot.png) 
 
-The image test is:
+Image test is:
 ![Image of carrot_test](https://github.com/Fyrewell/CurieNeuronsImage/blob/master/carrot_test.png)
 
 
@@ -32,3 +31,4 @@ Recognizing a new pattern: 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 3, 4, 8, 4, 6, 2, 7,
 Firing neuron 4, Category=4, at Distance=414
 Firing neuron 1, Category=1, at Distance=465
 ```
+Correct! Category=4, at Distance=414, because test image is carrot.
